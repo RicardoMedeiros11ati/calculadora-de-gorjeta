@@ -9,7 +9,13 @@
     font-size: 62.5%;
     --jagged-ice: #c5e4e7;
     --white: #fff;
-
+    --greyish-turquise: #5e7a7d;
+    --squeeze: #f3f9fa;
+    --sherpa-blue: #00474b;
+    --topaz:#26c2ae ;
+    --beetle-green: #547878;
+    --regent-grey: #7f9d9f;
+    --water-leaf: #9fe8df;
 }
 
 body {
@@ -17,6 +23,31 @@ body {
     background: var(--jagged-ice);
 }
 
+header{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
 main {
     background: var(--white);
+    padding: 3.2rem 2.4rem;
+    border-radius: 2.5rem 2.5rem 0 0;
 }
+
+.info {
+   margin-inline: .8rem;
+}
+    div {
+        margin-bottom: 3.2rem;
+    }
+    strong {
+        color: var(--greyish-turquise);
+    }
+
+    .input-box {
+        margin-top: .6rem;
+        background: var(--squeeze);
+    }
