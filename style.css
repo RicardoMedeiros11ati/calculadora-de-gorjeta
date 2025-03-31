@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+}
+
+:root {
+    font-size: 62.5%;
+    --jagged-ice: #c5e4e7;
+    --white: #fff;
+
+}
+
+body {
+    font-size: 1.6rem;
+    background: var(--jagged-ice);
+}
+
+main {
+    background: var(--white);
+}
