@@ -215,4 +215,26 @@ input::-webkit-outer-spin-button {
             }
         }
     }
+    
+    .results{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 5.6rem 4rem 4rem;
+
+        .amount, 
+        .total {
+            strong{
+                font-size: 4.8rem;
+
+            }
+        }
+        
+        button:hover {
+            transition: .3s;
+            background: var(--water-leaf);
+            cursor: pointer;
+         
+          }
+    }
 }
